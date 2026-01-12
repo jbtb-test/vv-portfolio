@@ -13,9 +13,9 @@ avec **IA utilisée comme accélérateur contrôlé** :
 - PLAN.ods : plan maître du projet (baseline)
 - docs/ : architecture, V-model IA, décisions et risques
 - Liens vers les 3 applications V&V :
-  - QRA (Quality Risk Assessment)
-  - TCTC (Test Case & Test Coverage)
-  - AITA (AI Test Assistant)
+  - [APP1 — QRA (Quality Risk Assessment)]    : (https://github.com/jbtb-test/vv-app1-qra)
+  - [APP2 — TCTC (Test Case & Test Coverage)] : (https://github.com/jbtb-test/vv-app2-tctc)
+  - [APP3 — AITA (AI Test Assistant)]         : (https://github.com/jbtb-test/vv-app3-aita)
 
 ## Méthode
 - Exécution ligne par ligne
@@ -23,4 +23,4 @@ avec **IA utilisée comme accélérateur contrôlé** :
 - Validation manuelle
 - Traçabilité décisions & risques
 
-Ce dépôt est le point dentrée **recruteur**.
+Ce dépôt est le point d'entrée **recruteur**.
