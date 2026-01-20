@@ -8,8 +8,8 @@ Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance
 ## 1) Pitch (2030 secondes)
 
 - « Je couvre le flux V&V complet : **qualité des exigences  traçabilité/KPI  conception de tests**. »
-- « Le cur est **déterministe et auditable** (CSV/HTML/MD/JSON) : reproductible, compatible contextes critiques. »
-- « LIA est **gouvernée** : **suggestion-only**, jamais décisionnelle, fallback non bloquant. »
+- « Le coeur est **déterministe et auditable** (CSV/HTML/MD/JSON) : reproductible, compatible contextes critiques. »
+- « L'IA est **gouvernée** : **suggestion-only**, jamais décisionnelle, fallback non bloquant. »
 
 ---
 
@@ -41,9 +41,9 @@ Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance
 ## 4) Gouvernance IA  réponse anti-piège
 
 ### Ce que je dis (simple)
-- « LIA na pas le droit de décider. Elle propose, lingénieur valide. »
+- « L'IA na pas le droit de décider. Elle propose, l'ingénieur valide. »
 - « Tout ce qui impacte une preuve V&V reste déterministe. »
-- « Si lIA tombe, loutil fonctionne pareil (fallback). »
+- « Si l'IA tombe, l'outil fonctionne pareil (fallback). »
 
 ### Ce que je refuse (si on me pousse)
 - Auto-modifier des exigences
@@ -56,9 +56,9 @@ Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance
 
 ### Q1  Pourquoi 3 apps ? Pourquoi pas une seule ?
 - « Séparation claire des responsabilités : qualité / traçabilité / test design.
-  Chaque app est utilisable seule et sintègre facilement dans un SI existant. »
+  Chaque app est utilisable seule et s'intègre facilement dans un SI existant. »
 
-### Q2  Comment tu garantis lauditabilité ?
+### Q2  Comment tu garantis l'auditabilité ?
 - « Exports CSV/JSON + rapports lisibles + logique déterministe.
   Les suggestions IA sont séparées et traçables. »
 
@@ -66,7 +66,7 @@ Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance
 - « Secrets jamais committés. IA optionnelle, activée via env.
   Le mode par défaut est sans IA. »
 
-### Q4  Quel est lindicateur le plus utile ?
+### Q4  Quel est l'indicateur le plus utile ?
 - « Couverture exigences (APP2), non-couverts, tests orphelins.
   Cest actionnable immédiatement en plan de test / revue. »
 
@@ -82,7 +82,7 @@ Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance
 - « Je rends la couverture testable mesurable et pilotable (KPIs + preuves). »
 
 ### Poste V&V système / safety
-- « Je sécurise lamont (qualité exigences) et je rends les preuves auditables. »
+- « Je sécurise l'amont (qualité exigences) et je rends les preuves auditables. »
 
 ### Poste outillage / process
 - « Industrialisation : formats simples, portabilité, documentation recruteur-grade. »

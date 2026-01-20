@@ -1,6 +1,6 @@
 # Démo portfolio V&V  2 minutes (sans exécution)
 
-Objectif : démontrer la valeur V&V **en < 2 minutes**, sans lancer de code, en sappuyant uniquement sur
+Objectif : démontrer la valeur V&V **en < 2 minutes**, sans lancer de code, en s'appuyant uniquement sur
 les docs et les outputs figés.
 
 Pré-requis : ouvrir les fichiers localement (ou via GitHub) et suivre le script.
@@ -8,7 +8,7 @@ Pré-requis : ouvrir les fichiers localement (ou via GitHub) et suivre le script.
 ---
 
 ##  0:00  0:15  Contexte (1 phrase)
-> « Dans les systèmes critiques, la difficulté cest dobtenir des **preuves V&V fiables** :
+> « Dans les systèmes critiques, la difficulté c'est dobtenir des **preuves V&V fiables** :
 > qualité dexigences, traçabilité, couverture, conception de tests. Ce portfolio outille ce flux de bout en bout. »
 
 ---
@@ -29,7 +29,7 @@ Points à dire :
 
 Points à dire :
 - « Le **V-cycle reste maître** »
-- « LIA est un **accélérateur**, jamais un décideur »
+- « L'IA est un **accélérateur**, jamais un décideur »
 - « Deterministic-first + fallback safe »
 
 ---
@@ -39,7 +39,7 @@ Points à dire :
 
 Message :
 - « APP1 sécurise la **qualité des exigences** via règles déterministes »
-- « LIA peut suggérer, mais ne modifie rien automatiquement »
+- « L'IA peut suggérer, mais ne modifie rien automatiquement »
 
  Montrer un output figé (repo APP1) :
 - `vv-app1-qra/docs/demo/.../outputs_no_ai/...html`
@@ -53,7 +53,7 @@ Message :
 Message :
 - « APP2 construit la traçabilité exigences  tests »
 - « Calcule des KPI auditables : couverture, non-couverts, tests orphelins »
-- « IA optionnelle = suggestions de liens manquants uniquement »
+- « L'IA optionnelle = suggestions de liens manquants uniquement »
 
  Montrer un output figé (repo APP2) :
 - `vv-app2-tctc/docs/demo/.../outputs_no_ai/...html`
