@@ -1,4 +1,4 @@
-# V&V AI Portfolio — Requirements ? Traceability ? Test Design
+# V&V AI Portfolio — Requirements ? Traceability -> Test Design
 
 Ce dépôt est le **point d’entrée recruteur** d’un portfolio V&V complet,
 aligné **V-Model / ISTQB**, avec **IA gouvernée (suggestion-only)**.
@@ -12,7 +12,7 @@ Objectif : comprendre la valeur **en moins de 2 minutes**,
 
 Ce portfolio couvre l’ensemble du flux V&V :
 
-Exigences ? Qualité ? Traçabilité ? Couverture ? Conception de tests
+Exigences -> Qualité -> Traçabilité -> Couverture -> Conception de tests
 
 Il s’appuie sur **3 applications Python indépendantes**, toutes :
 - testées (`pytest -vv`)
@@ -40,9 +40,9 @@ Démo figée (sans exécution) :
 ---
 
 ### APP2 — TCTC (Traceability & Test Coverage)
-**Objectif** : traçabilité Exigences ? Cas de test + KPI de couverture.
+**Objectif** : traçabilité Exigences -> Cas de test + KPI de couverture.
 
-- matrice déterministe Req ? Tests
+- matrice déterministe Req -> Tests
 - KPI auditables (couverture, exigences non couvertes, tests orphelins)
 - IA optionnelle : suggestions de liens uniquement
 
