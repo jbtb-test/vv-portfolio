@@ -1,0 +1,39 @@
+flowchart TB
+  %% =========================
+  %% V&V Portfolio — V-model flow + AI governance (slide)
+  %% =========================
+
+  classDef step fill:#f8fafc,stroke:#334155,stroke-width:1px,color:#0f172a;
+  classDef app  fill:#e8f0fe,stroke:#1a73e8,stroke-width:1px,color:#0b1f3a;
+  classDef ai   fill:#e6f4ea,stroke:#137333,stroke-width:1px,color:#0b1f3a;
+  classDef out  fill:#fff7ed,stroke:#c2410c,stroke-width:1px,color:#7c2d12;
+
+  %% Left/main flow (V&V chain)
+  A["Stakeholder needs"]:::step --> B["System / Software requirements<br/>(CSV export)"]:::step
+  B --> APP1["APP1 — QRA<br/>Requirements quality<br/><small>Deterministic rules + optional AI suggestions</small>"]:::app
+  APP1 --> APP2["APP2 — TCTC<br/>Traceability + Coverage KPIs<br/><small>Deterministic matrix + optional AI suggestions</small>"]:::app
+  APP2 --> APP3["APP3 — AITA<br/>Test-pack design acceleration<br/><small>Deterministic baseline + governed AI suggestions</small>"]:::app
+  APP3 --> OUT["Verification evidence<br/>(HTML/CSV/MD/JSON artifacts)"]:::out
+
+  %% AI governance block (separate, right side)
+  subgraph GOV["AI GOVERNANCE (non-decision-making)"]
+    direction TB
+    G1["✔ Suggestion-only"]:::ai
+    G2["✔ Deterministic-first"]:::ai
+    G3["✔ Never decision-making"]:::ai
+    G4["✔ Safe fallback (non blocking)"]:::ai
+    G5["→ Human validation required"]:::ai
+  end
+
+  %% Dotted influence arrows (never dependencies)
+  GOV -.-> APP1
+  GOV -.-> APP2
+  GOV -.-> APP3
+
+%% --- Link styling fix (visibility in PNG exports) ---
+linkStyle default stroke:#94a3b8,stroke-width:2px
+
+%% Dotted AI influence links (stronger but still non-dependency)
+linkStyle 5 stroke:#22c55e,stroke-width:2px,stroke-dasharray:5 5
+linkStyle 6 stroke:#22c55e,stroke-width:2px,stroke-dasharray:5 5
+linkStyle 7 stroke:#22c55e,stroke-width:2px,stroke-dasharray:5 5
