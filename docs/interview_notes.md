@@ -7,7 +7,7 @@ Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance
 
 ## 1) Pitch (2030 secondes)
 
-- « Je couvre le flux V&V complet : **qualité des exigences  traçabilité/KPI  conception de tests**. »
+- « Je couvre le flux V&V complet : **qualité des exigences,  traçabilité/KPI et conception de tests**. »
 - « Le coeur est **déterministe et auditable** (CSV/HTML/MD/JSON) : reproductible, compatible contextes critiques. »
 - « L'IA est **gouvernée** : **suggestion-only**, jamais décisionnelle, fallback non bloquant. »
 
