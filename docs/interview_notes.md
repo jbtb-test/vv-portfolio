@@ -92,3 +92,6 @@ Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance
 ## 7) Closing (10 secondes)
 - « Mon axe : **preuve V&V** + **reproductibilité** + **IA maîtrisée**.
   Le portfolio est lisible en 2 minutes, sans exécuter de code. »
+
+Pour illustrer concrètement la complémentarité QRA / TCTC :
+- voir la démo croisée QRA ? TCTC (analyse sur dataset réaliste)
