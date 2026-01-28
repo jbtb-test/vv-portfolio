@@ -41,6 +41,7 @@ Chaque application :
 - peut être utilisée seule
 - produit des **artefacts auditables**
 - s’intègre naturellement dans un cycle en V
+- Chaque application apporte une valeur distincte, mais c’est leur enchaînement qui permet une preuve V&V complète.
 
 ---
 

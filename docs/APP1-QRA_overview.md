@@ -11,6 +11,7 @@ Outiller la revue qualité d’exigences (export DOORS / Polarion) via :
 - IA gouvernée : ENABLE_AI=0 par défaut, clé absente ⇒ fallback strict
 - Traçabilité : issues typées, output CSV audit-ready
 - Robustesse : tests unitaires (pytest -vv), CI GitHub Actions
+- Réduit les défauts injectés dans la traçabilité et les tests
 
 ## Démo recruteur (sans exécution)
 Chemin : `vv-app1-qra/docs/demo/`
@@ -20,6 +21,7 @@ Chemin : `vv-app1-qra/docs/demo/`
 ## Démo technique (optionnelle)
 - Run : `python -m vv_app1_qra.main --verbose`
 - Outil diagnostic : `python tools/env_check.py --print --redact-paths`
+- Diagnostic env : `python tools/env_check.py --print --redact-paths`
 
 ## Résultat
 APP1 est livrable et prêt entretien : pack démo figé + CI + tests verts.

@@ -1,7 +1,7 @@
 # APP3 — AITA (AI-assisted Test Ideas & Traceability Accelerator) — Final Summary
 
 ## Objectif
-Outiller la **génération de packs de tests** à partir d’exigences (exports DOORS / Polarion) via :
+Outiller la **matérialisation de la conception de tests** à partir d’exigences (exports DOORS / Polarion) via :
 - règles déterministes (checklists de conception de tests)
 - IA optionnelle (suggestion-only, non bloquante)
 - outputs démontrables et auditables (Markdown + JSON)
@@ -20,6 +20,7 @@ Chemin : `vv-app3-aita/docs/demo/`
 
 ## Démo technique (optionnelle)
 - Run : `python -m vv_app3_aita.main --out-dir data/outputs --verbose`
+- Mode IA : `ENABLE_AI=1` (suggestions uniquement)
 - Outil diagnostic : `python tools/env_check.py --print --redact-paths`
 
 ## Résultat

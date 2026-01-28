@@ -1,7 +1,6 @@
 # Notes entretien  Portfolio V&V (APP1  APP2  APP3)
 
-Ces notes sont **internes** et conçues pour être utilisées en entretien.
-Objectif : répondre vite, clairement, avec un angle **V&V / preuve / gouvernance IA**.
+> Document interne — support d’entretien (non destiné à une lecture recruteur autonome)
 
 ---
 

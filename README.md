@@ -9,6 +9,9 @@ Objectif : comprendre la valeur **en moins de 2 minutes**,
 ---
 
 ## Vue d’ensemble
+Ce portfolio illustre une chaîne V&V complète :
+qualifier les exigences ? prouver la couverture ? matérialiser des tests exploitables,
+avec une IA strictement gouvernée.
 
 Ce portfolio couvre l’ensemble du flux V&V :
 
@@ -71,10 +74,9 @@ Démo figée (sans exécution) :
 
 ## Gouvernance IA (principe non négociable)
 
-- IA **désactivée par défaut**
-- IA = **moteur de suggestion uniquement**
-- aucune décision automatique
-- fallback strict si clé absente ou erreur IA
+- IA désactivée par défaut
+- IA = moteur de suggestion uniquement (jamais décisionnelle)
+- validation humaine requise, fallback strict
 
 Les résultats déterministes restent **la référence V&V**.
 
@@ -84,8 +86,8 @@ Les résultats déterministes restent **la référence V&V**.
 
 - Architecture globale : `docs/architecture.md`
 - Vue V-cycle + IA : `docs/vmodel_ai_overview.png`
-- Script démo 2 minutes : `docs/demo_2min.md`
-- Notes entretien : `docs/interview_notes.md`
+- Script démo 2 minutes : `docs/demo/demo_2min.md`
+- Notes entretien : `docs/demo/interview_notes.md`
 
 ---
 
@@ -96,7 +98,7 @@ Les fonctionnalités IA sont **assistives** et **non décisionnelles**.
 
 ---
 
-## ?? Usage & licence
+## Usage & licence
 
 Ce dépôt est fourni à des fins de **démonstration et d’évaluation professionnelle** uniquement.
 

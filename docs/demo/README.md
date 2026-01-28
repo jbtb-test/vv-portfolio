@@ -5,9 +5,9 @@ Il est conçu pour être **lisible sans contexte technique** et sans exécuter d
 
 ---
 
-- **Démo croisée QRA → TCTC**  
-  Audit de la prouvabilité des exigences et de la robustesse de la couverture tests.  
-  👉 [demo_qra_tctc_cross_analysis.md](demo_qra_tctc_cross_analysis.md)
+- **Démo croisée QRA → TCTC → AITA**  
+ → de la prouvabilité des exigences aux tests exploitables 
+  👉 [demo_qra_tctc_cross_analysis.md](demo_qra_tctc_aita_cross_analysis.md)
 
 ## Parcours recommandé (lecture < 2 minutes)
 

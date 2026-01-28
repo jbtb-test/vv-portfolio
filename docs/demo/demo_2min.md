@@ -8,8 +8,8 @@ Pré-requis : ouvrir les fichiers localement (ou via GitHub) et suivre le script.
 ---
 
 ##  0:00  0:15  Contexte (1 phrase)
-> « Dans les systèmes critiques, la difficulté c'est dobtenir des **preuves V&V fiables** :
-> qualité dexigences, traçabilité, couverture, conception de tests. Ce portfolio outille ce flux de bout en bout. »
+> « Dans les systèmes critiques, la difficulté c'est d'obtenir des **preuves V&V fiables** :
+> qualité d'exigences, traçabilité, couverture, conception de tests. Ce portfolio outille ce flux de bout en bout. »
 
 ---
 
@@ -65,7 +65,7 @@ Message :
  Ouvrir : `docs/APP3-AITA_overview.md`
 
 Message :
-- « APP3 accélère la conception de tests »
+- « APP3 matérialise la conception de tests en packs exploitables »
 - « Baseline déterministe toujours produite »
 - « IA optionnelle pour enrichir, sous gouvernance »
 
@@ -76,5 +76,6 @@ Message :
 ---
 
 ##  1:55  2:00  Conclusion (phrase de clôture)
-> « Résultat : un flux V&V complet, outillé, auditable, reproductible,
-> compatible contextes critiques, avec une IA strictement gouvernée. »
+> « Résultat : un flux V&V complet, outillé, auditable et reproductible,
+> adapté aux contextes critiques, avec une IA strictement gouvernée. »
+
