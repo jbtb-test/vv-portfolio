@@ -124,6 +124,34 @@ Chaque application :
 
 ---
 
+### APP4 — VVDR (Verification & Validation Decision Register)
+**Rôle**
+- Tracer et justifier les **décisions humaines V&V** du portfolio
+
+**Entrées**
+- Décisions V&V formalisées (YAML)
+
+**Traitements**
+- Validation de schéma
+- Tri déterministe
+- Aucune automatisation décisionnelle
+- Aucune IA (choix volontaire)
+
+**Sorties**
+- Registre décisions lisible (Markdown)
+- Exports auditables (CSV / JSON)
+
+APP4 constitue la **couche gouvernance transverse** du portfolio.
+Il répond à la question **WHY** (pourquoi ces choix),
+en complément des preuves techniques fournies par APP1/2/3 (WHAT / HOW).
+
+Les décisions sont :
+- strictement humaines
+- versionnées
+- explicitement liées aux risques (R1 à R6)
+
+---
+
 ## 5. Gouvernance IA — Principe fondamental
 
 L’IA est **strictement encadrée** dans l’ensemble du portfolio.
