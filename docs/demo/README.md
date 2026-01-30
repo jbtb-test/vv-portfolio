@@ -39,6 +39,9 @@ Il est conçu pour être **lisible sans contexte technique** et sans exécuter d
 
 - **APP3 — AITA** : `APP3-AITA_overview.md`  
   Génération de packs de tests, baseline déterministe + IA gouvernée
+  
+- **APP4 — VVDR** : `APP4-VVDR_overview.md`  
+  Registre décisionnel V&V, gouvernance humaine, justification des choix (WHY)
 
 ---
 
@@ -48,6 +51,8 @@ Il est conçu pour être **lisible sans contexte technique** et sans exécuter d
 - IA **suggestion-only**, jamais décisionnelle
 - Outputs **auditables** (HTML / CSV / MD / JSON)
 - Démos **figées**, lisibles sans exécution
+- Décisions V&V **explicitement tracées** (APP4 — Decision Register)
+
 
 ---
 
