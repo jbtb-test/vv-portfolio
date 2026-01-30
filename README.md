@@ -72,6 +72,27 @@ Démo figée (sans exécution) :
 
 ---
 
+### APP4 — VVDR (Verification & Validation Decision Register)
+**Objectif** : tracer les décisions V&V humaines et la gouvernance du portfolio.
+
+- registre décisionnel versionné (WHY)
+- aucune automatisation, aucune IA
+- décisions liées explicitement aux risques (R1 à R6)
+- pipeline déterministe : YAML ? MD / CSV / JSON
+
+Rôle :
+- expliciter les arbitrages techniques et méthodologiques
+- justifier les choix de gouvernance IA
+- sécuriser la cohérence du portfolio dans le temps
+
+Repo : https://github.com/jbtb-test/vv-app4-vvdr  
+Démo figée (sans exécution) :  
+`vv-app4-vvdr/docs/demo/`
+
+La gouvernance globale est complétée par **APP4 (registre décisionnel humain)**,
+qui trace explicitement les choix et exclusions (dont l’usage ou non de l’IA).
+---
+
 ## Gouvernance IA (principe non négociable)
 
 - IA désactivée par défaut
