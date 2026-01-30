@@ -122,7 +122,29 @@ QRA et TCTC révèlent un problème V&V.
 
 ---
 
-## 7. Message clé V&V
+## 7. Decision trail (APP4) — le WHY gouvernance
+
+Les constats QRA/TCTC et les packs AITA produisent des **preuves techniques** (WHAT/HOW).
+Dans un contexte critique, il faut aussi pouvoir répondre à :
+
+- *Pourquoi l’IA est autorisée ici mais pas là ?*
+- *Pourquoi ces règles déterministes ?*
+- *Pourquoi ce format d’artefacts ?*
+- *Quels arbitrages ont été faits et quand ?*
+
+**APP4 (VVDR)** apporte ce niveau “WHY” via un registre décisionnel humain :
+
+- **source of truth** : décisions versionnées (YAML)
+- validation + tri déterministes
+- exports auditables (MD / CSV / JSON)
+- décisions liées explicitement aux risques (R1 à R6)
+
+👉 Résultat : le portfolio démontre non seulement un flux V&V complet,
+mais aussi une **gouvernance explicite** et traçable, compatible audit.
+
+---
+
+## 8. Message clé V&V
 
 > “QRA explique *pourquoi* certaines exigences sont difficiles à prouver.  
 > TCTC montre *où* la couverture est structurellement absente.  
