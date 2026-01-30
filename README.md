@@ -1,4 +1,4 @@
-# V&V AI Portfolio — Requirements -> Traceability -> Test Design
+# V&V AI Portfolio — Requirements ? Traceability ? Test Design
 
 Ce dépôt est le **point d’entrée recruteur** d’un portfolio V&V complet,
 aligné **V-Model / ISTQB**, avec **IA gouvernée (suggestion-only)**.
@@ -9,23 +9,18 @@ Objectif : comprendre la valeur **en moins de 2 minutes**,
 ---
 
 ## Vue d’ensemble
+
 Ce portfolio illustre une chaîne V&V complète :
-qualifier les exigences ? prouver la couverture ? matérialiser des tests exploitables,
-avec une IA strictement gouvernée.
+qualifier les exigences, prouver la couverture, matérialiser des tests exploitables,
+**et tracer explicitement les décisions de gouvernance associées**.
 
-Ce portfolio couvre l’ensemble du flux V&V :
+Il couvre l’ensemble du flux V&V :
 
-Exigences -> Qualité -> Traçabilité -> Couverture -> Conception de tests
-
-Il s’appuie sur **3 applications Python indépendantes**, toutes :
-- testées (`pytest -vv`)
-- documentées
-- livrées avec **démos figées lisibles localement**
-- IA **désactivée par défaut**, jamais décisionnelle
+**Exigences => Qualité => Traçabilité => Couverture => Conception de tests => Décisions**
 
 ---
 
-## Les 3 applications
+## Les 4 applications du portfolio
 
 ### APP1 — QRA (Quality Risk Assessment)
 **Objectif** : outiller la revue qualité d’exigences (DOORS / Polarion).
@@ -43,9 +38,9 @@ Démo figée (sans exécution) :
 ---
 
 ### APP2 — TCTC (Traceability & Test Coverage)
-**Objectif** : traçabilité Exigences -> Cas de test + KPI de couverture.
+**Objectif** : traçabilité Exigences ? Cas de test + KPI de couverture.
 
-- matrice déterministe Req -> Tests
+- matrice déterministe Req ? Tests
 - KPI auditables (couverture, exigences non couvertes, tests orphelins)
 - IA optionnelle : suggestions de liens uniquement
 
@@ -72,13 +67,36 @@ Démo figée (sans exécution) :
 
 ---
 
+### APP4 — VVDR (Verification & Validation Decision Register)
+**Objectif** : tracer les **décisions V&V humaines** et la gouvernance du portfolio.
+
+- registre décisionnel versionné (WHY)
+- aucune automatisation, aucune IA
+- décisions liées explicitement aux risques (R1 à R6)
+- pipeline déterministe : YAML ? Markdown / CSV / JSON
+
+Rôle :
+- expliciter les arbitrages techniques et méthodologiques
+- justifier les choix de gouvernance IA
+- sécuriser la cohérence du portfolio dans le temps
+
+Repo : https://github.com/jbtb-test/vv-app4-vvdr  
+Démo figée (sans exécution) :  
+`vv-app4-vvdr/docs/demo/`
+
+---
+
 ## Gouvernance IA (principe non négociable)
 
-- IA désactivée par défaut
-- IA = moteur de suggestion uniquement (jamais décisionnelle)
+- IA **désactivée par défaut**
+- IA = moteur de **suggestion uniquement** (jamais décisionnelle)
 - validation humaine requise, fallback strict
 
 Les résultats déterministes restent **la référence V&V**.
+
+La gouvernance globale est **rendue explicite et auditable par APP4 (VVDR)**,
+qui trace les décisions humaines, les exclusions et les arbitrages
+liés à l’usage (ou non) de l’IA.
 
 ---
 
@@ -110,4 +128,3 @@ Aucune décision automatique n’est prise par l’IA.
 
 © 2026 JBTB. Tous droits réservés.  
 Voir le fichier [LICENSE](LICENSE) pour les conditions complètes d’utilisation.
-
